@@ -1,0 +1,6 @@
+version: '3'
+services:
+  webcontainer:
+    image: mysql
+    ports:
+      - 6070:80
